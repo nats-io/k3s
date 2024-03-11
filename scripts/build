@@ -7,6 +7,8 @@ cd $(dirname $0)/..
 
 GO=${GO-go}
 
+GOPRIVATE="github.com/synadia-labs"
+
 PKG="github.com/k3s-io/k3s"
 PKG_CONTAINERD="github.com/containerd/containerd"
 PKG_CRICTL="sigs.k8s.io/cri-tools/pkg"
@@ -63,7 +65,7 @@ fi
 STATIC="
     -extldflags '-static -lm -ldl -lz -lpthread'
 "
-TAGS="ctrd apparmor seccomp netcgo osusergo providerless urfave_cli_no_docs"
+TAGS="ctrd apparmor seccomp netcgo osusergo providerless urfave_cli_no_docs nats"
 RUNC_TAGS="apparmor seccomp"
 RUNC_STATIC="static"
 
