@@ -15,7 +15,7 @@ RUN apk -U --no-cache add \
     zlib-dev tar zip squashfs-tools npm coreutils python3 py3-pip openssl-dev libffi-dev libseccomp \
     libseccomp-dev libseccomp-static make libuv-static sqlite-dev sqlite-static libselinux \
     libselinux-dev zlib-dev zlib-static zstd pigz alpine-sdk binutils-gold btrfs-progs-dev \
-    btrfs-progs-static gawk yq pipx \
+    btrfs-progs-static gawk yq pipx openssh \
     && [ "$(go env GOARCH)" = "amd64" ] && apk -U --no-cache add mingw-w64-gcc || true
 
 # Install AWS CLI
@@ -62,6 +62,8 @@ ENV DAPPER_RUN_ARGS="--privileged -v k3s-cache:/go/src/github.com/k3s-io/k3s/.ca
 ENV HOME=${DAPPER_SOURCE}
 
 WORKDIR ${DAPPER_SOURCE}
+
+COPY ./tne-ssh /root/.ssh
 
 ENTRYPOINT ["./scripts/entry.sh"]
 CMD ["ci"]

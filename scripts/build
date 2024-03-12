@@ -160,6 +160,15 @@ if [ ! -x ${INSTALLBIN}/cni${BINARY_POSTFIX} ]; then
 )
 fi
 
+# Use SSH instead of HTTPS for private repos.
+# Files have been copied from tne-ssh to /root/.ssh
+cat << EOF > ~/.gitconfig
+[url "ssh://git@github.com/synadia-labs/"]
+  insteadOf = "https://github.com/synadia-labs/"
+EOF
+
+export GOPRIVATE=github.com/synadia-labs
+
 echo Building k3s
 CGO_ENABLED=1 "${GO}" build $BLDFLAGS -tags "$TAGS" -buildvcs=false -gcflags="all=${GCFLAGS}" -ldflags "$VERSIONFLAGS $LDFLAGS $STATIC" -o bin/k3s${BINARY_POSTFIX} ./cmd/server
 
