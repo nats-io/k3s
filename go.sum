@@ -1590,10 +1590,10 @@ github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXl
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
 github.com/subosito/gotenv v1.2.0/go.mod h1:N0PQaV/YGNqwC0u51sEeR/aUtSLEXKX9iv69rRypqCw=
-github.com/synadia-labs/kine-tne v0.0.0-20240713021114-f124dec35256 h1:q9O6Nix1QxCHUzxgySj4Up1TMah6N6JdQspZl6xvTyE=
-github.com/synadia-labs/kine-tne v0.0.0-20240713021114-f124dec35256/go.mod h1:wNanamxKV19aoB+dh2SVPMVQnWDBURxUJqBjVoh6qiQ=
-github.com/synadia-labs/tne v0.0.0-20240713020525-78ea8200229a h1:6Sc1HEGISYa88iwE5J4InCxEXB2bkg4pAuZIHLrZZeY=
-github.com/synadia-labs/tne v0.0.0-20240713020525-78ea8200229a/go.mod h1:rKrXInnj3kI/mB8WMiV+dbKE9R3yH8aLygYYLQodhLc=
+github.com/synadia-labs/kine-tne v0.0.0-20240903012341-c85a7684202d h1:g9e2ow0JlYEn0gSSzkkl5TW03Q9RkUcBbDx7s7vQA4w=
+github.com/synadia-labs/kine-tne v0.0.0-20240903012341-c85a7684202d/go.mod h1:hZ/QWir1BquoZAWO1XXoJ1JgYlPz1DFV2/aTgiyCW1E=
+github.com/synadia-labs/tne v0.0.0-20240903011542-01c604905a5c h1:icokeQdB3OcRtKSLiX3Yo7KFPs16T0ID+wTYZ+1bHX4=
+github.com/synadia-labs/tne v0.0.0-20240903011542-01c604905a5c/go.mod h1:rKrXInnj3kI/mB8WMiV+dbKE9R3yH8aLygYYLQodhLc=
 github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635 h1:kdXcSzyDtseVEc4yCz2qF8ZrQvIDBJLl4S1c3GCXmoI=
 github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635/go.mod h1:hkRG7XYTFWNJGYcbNJQlaLq0fg1yr4J4t/NcTQtrfww=
 github.com/syndtr/goleveldb v1.0.0 h1:fBdIW9lB4Iz0n9khmH8w27SJ3QEJ7+IgjPEwGSZiFdE=
