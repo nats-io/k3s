@@ -414,7 +414,7 @@ require (
 	github.com/spf13/cobra v1.8.1 // indirect
 	github.com/stefanberger/go-pkcs11uri v0.0.0-20230803200340-78284954bff6 // indirect
 	github.com/stoewer/go-strcase v1.3.0 // indirect
-	github.com/synadia-labs/tne v0.0.0-20240903011542-01c604905a5c // indirect
+	github.com/synadia-labs/tne v0.0.0-20240904014207-04d131b71f6e // indirect
 	github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635 // indirect
 	github.com/syndtr/goleveldb v1.0.0 // indirect
 	github.com/tchap/go-patricia/v2 v2.3.1 // indirect
@@ -499,4 +499,4 @@ require (
 	tags.cncf.io/container-device-interface/specs-go v0.8.0 // indirect
 )
 
-replace github.com/k3s-io/kine => github.com/synadia-labs/kine-tne v0.0.0-20240903012341-c85a7684202d
+replace github.com/k3s-io/kine => github.com/synadia-labs/kine-tne v0.0.0-20240904014711-f6f11b48a344
