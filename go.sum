@@ -1494,8 +1494,8 @@ github.com/sergi/go-diff v1.0.0/go.mod h1:0CfEIISq7TuYL3j771MWULgwwjU+GofnZX9QAm
 github.com/sergi/go-diff v1.1.0/go.mod h1:STckp+ISIX8hZLjrqAeVduY0gWCT9IjLuqbuNXdaHfM=
 github.com/sergi/go-diff v1.2.0 h1:XU+rvMAioB0UC3q1MFrIQy4Vo5/4VsRDQQXHsEya6xQ=
 github.com/sergi/go-diff v1.2.0/go.mod h1:STckp+ISIX8hZLjrqAeVduY0gWCT9IjLuqbuNXdaHfM=
-github.com/sethvargo/go-envconfig v0.9.0 h1:Q6FQ6hVEeTECULvkJZakq3dZMeBQ3JUpcKMfPQbKMDE=
-github.com/sethvargo/go-envconfig v0.9.0/go.mod h1:Iz1Gy1Sf3T64TQlJSvee81qDhf7YIlt8GMUX6yyNFs0=
+github.com/sethvargo/go-envconfig v1.0.1 h1:9wglip/5fUfaH0lQecLM8AyOClMw0gT0A9K2c2wozao=
+github.com/sethvargo/go-envconfig v1.0.1/go.mod h1:OKZ02xFaD3MvWBBmEW45fQr08sJEsonGrrOdicvQmQA=
 github.com/shengdoushi/base58 v1.0.0 h1:tGe4o6TmdXFJWoI31VoSWvuaKxf0Px3gqa3sUWhAxBs=
 github.com/shengdoushi/base58 v1.0.0/go.mod h1:m5uIILfzcKMw6238iWAhP4l3s5+uXyF3+bJKUNhAL9I=
 github.com/shurcooL/component v0.0.0-20170202220835-f88ec8f54cc4/go.mod h1:XhFIlyj5a1fBNx5aJTbKoIq0mNaPvOagO+HjB3EtxrY=
@@ -1591,8 +1591,8 @@ github.com/stretchr/testify v1.8.4/go.mod h1:sz/lmYIOXD/1dqDmKjjqLyZ2RngseejIcXl
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=
 github.com/stretchr/testify v1.9.0/go.mod h1:r2ic/lqez/lEtzL7wO/rwa5dbSLXVDPFyf8C91i36aY=
 github.com/subosito/gotenv v1.2.0/go.mod h1:N0PQaV/YGNqwC0u51sEeR/aUtSLEXKX9iv69rRypqCw=
-github.com/synadia-labs/kine-tne v0.0.0-20240905193204-95b2f300e2cc h1:ktiSgXweYhFCFo/pXT3uwzgzPpztXMpBVbmsctjjPdk=
-github.com/synadia-labs/kine-tne v0.0.0-20240905193204-95b2f300e2cc/go.mod h1:+PqRtSn3r8Cbiqb/Zh9a5bkbgDauTzH6TP6GvM3UOi4=
+github.com/synadia-labs/kine-tne v0.0.0-20241004115601-7b1c36f558c9 h1:TdV3Q0CiVfvyet10v/FTkTrXLJ9TPtES25TIazkzOqo=
+github.com/synadia-labs/kine-tne v0.0.0-20241004115601-7b1c36f558c9/go.mod h1:lR0N0YDi4mhUDGFbIV+w9VkIBqqaDL5tthdQHB0vOMk=
 github.com/synadia-labs/tne v0.0.0-20240904014207-04d131b71f6e h1:eC2h1k2cXb0wkRlV232kpnCaqVtoqiGdFfBcSJYVMDA=
 github.com/synadia-labs/tne v0.0.0-20240904014207-04d131b71f6e/go.mod h1:rKrXInnj3kI/mB8WMiV+dbKE9R3yH8aLygYYLQodhLc=
 github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635 h1:kdXcSzyDtseVEc4yCz2qF8ZrQvIDBJLl4S1c3GCXmoI=

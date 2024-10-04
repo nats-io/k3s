@@ -406,7 +406,7 @@ require (
 	github.com/rs/xid v1.5.0 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/seccomp/libseccomp-golang v0.10.0 // indirect
-	github.com/sethvargo/go-envconfig v0.9.0 // indirect
+	github.com/sethvargo/go-envconfig v1.0.1 // indirect
 	github.com/shengdoushi/base58 v1.0.0 // indirect
 	github.com/soheilhy/cmux v0.1.5 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
@@ -499,4 +499,4 @@ require (
 	tags.cncf.io/container-device-interface/specs-go v0.8.0 // indirect
 )
 
-replace github.com/k3s-io/kine => github.com/synadia-labs/kine-tne v0.0.0-20240905193204-95b2f300e2cc
+replace github.com/k3s-io/kine => github.com/synadia-labs/kine-tne v0.0.0-20241004115601-7b1c36f558c9
