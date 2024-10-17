@@ -499,4 +499,4 @@ require (
 	tags.cncf.io/container-device-interface/specs-go v0.8.0 // indirect
 )
 
-replace github.com/k3s-io/kine => github.com/synadia-labs/kine-tne v0.0.0-20241017164525-bf00481891b3
+replace github.com/k3s-io/kine => github.com/synadia-labs/kine-tne v0.0.0-20241017165623-966be5d9a96e
