@@ -104,7 +104,7 @@ require (
 	github.com/json-iterator/go v1.1.12
 	github.com/k3s-io/helm-controller v0.16.4
 	github.com/k3s-io/kine v0.13.2
-	github.com/klauspost/compress v1.17.10
+	github.com/klauspost/compress v1.17.11
 	github.com/libp2p/go-libp2p v0.33.2
 	github.com/minio/minio-go/v7 v7.0.70
 	github.com/mwitkow/go-http-dialer v0.0.0-20161116154839-378f744fb2b8
@@ -136,10 +136,10 @@ require (
 	go.etcd.io/etcd/client/v3 v3.5.16
 	go.etcd.io/etcd/etcdutl/v3 v3.5.13
 	go.etcd.io/etcd/server/v3 v3.5.16
-	golang.org/x/crypto v0.27.0
+	golang.org/x/crypto v0.28.0
 	golang.org/x/net v0.28.0
 	golang.org/x/sync v0.8.0
-	golang.org/x/sys v0.25.0
+	golang.org/x/sys v0.26.0
 	google.golang.org/grpc v1.67.0
 	gopkg.in/yaml.v2 v2.4.0
 	inet.af/tcpproxy v0.0.0-20200125044825-b6bb9b5b8252
@@ -455,7 +455,7 @@ require (
 	golang.org/x/mod v0.20.0 // indirect
 	golang.org/x/oauth2 v0.21.0 // indirect
 	golang.org/x/term v0.23.0 // indirect
-	golang.org/x/text v0.18.0 // indirect
+	golang.org/x/text v0.19.0 // indirect
 	golang.org/x/time v0.6.0 // indirect
 	golang.org/x/tools v0.24.0 // indirect
 	golang.zx2c4.com/wireguard v0.0.0-20230325221338-052af4a8072b // indirect
@@ -499,4 +499,4 @@ require (
 	tags.cncf.io/container-device-interface/specs-go v0.8.0 // indirect
 )
 
-replace github.com/k3s-io/kine => github.com/synadia-labs/kine-tne v0.0.0-20241018013111-ea69323276f9
+replace github.com/k3s-io/kine => github.com/synadia-labs/kine-tne v0.0.0-20241018021107-02c1aa5f1eec
